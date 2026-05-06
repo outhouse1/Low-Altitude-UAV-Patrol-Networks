@@ -23,15 +23,13 @@ Runtime may vary across machines because of hardware differences, operating-syst
 Two solution modes are reported:
 
 - **branch-and-price exact mode**: solves the normal-state organizational problem over the admissible route domain where the case scale is computationally tractable. It is used to provide exact reference solutions for validation.
-- **generated-pool mode**: constructs a candidate route pool and solves the corresponding full-pool mixed-integer programming model. Its optimality certificate applies to the generated route pool rather than to the complete admissible route domain.
+- **generated-pool mode**: constructs a candidate route pool and solves the corresponding full-pool mixed-integer programming model. 
 
 The disruption reallocation layer considers **single activated-base failure scenarios**. For each first-stage solution, every activated base is failed separately, and the remaining activated bases are used to reconstruct patrol routes under the full-coverage requirement. Inactive bases are not reactivated during recovery.
 
 ## Parameter settings used in the numerical experiments
 
-The table below reports the manuscript-level notation used to describe the model and algorithm parameters and the corresponding code-level variables used in the implementation. The symbols follow the manuscript formulation. Implementation-only switches that do not correspond to explicit mathematical symbols in the manuscript are denoted by `--`.
-
-Legacy configuration keys that are not active in the reported computational pipeline are omitted from the table to avoid ambiguity.
+The table below reports the manuscript-level notation used to describe the model and algorithm parameters and the corresponding code-level variables used in the implementation. The symbols follow the manuscript formulation. 
 
 | Category | Manuscript symbol | Code variable / implementation key | Value used in code | Description |
 |---|---|---|---:|---|
