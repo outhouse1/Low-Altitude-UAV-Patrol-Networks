@@ -36,7 +36,7 @@ The table below reports the paper-level notation used to describe the parameters
 | Category | Paper-level symbol | Code variable / implementation key | Value | Description |
 |---|---|---|---:|---|
 | UAV operation | $v$ | `speed_mps` | 20.0 m/s | UAV cruising speed. |
-| UAV operation | $T^{\max}$ | `mission_time_limit_min` | 50.0 min | Maximum flight duration of one UAV sortie. |
+| UAV operation | $T^{\max}$ | `mission_time_limit_min` | 53.0 min | Maximum flight duration of one UAV sortie. |
 | UAV operation | $\bar{K}_b$ | `default_uavs_per_base` | 1 | Default number of UAVs available at an activated base. |
 | UAV operation | $\bar{K}^{0}_b$ | `normal_stage_uavs_per_base` | 1 | UAV capacity used in the normal-state organisational layer. |
 | UAV operation | $\tau^{\mathrm{buf}}$ | `safety_buffer_min` | 1.5 min | Safety time buffer reserved for flight operations. |
