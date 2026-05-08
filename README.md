@@ -1,4 +1,4 @@
-# Supplementary Materials for “How Organization Strategies Shape the Resilience of Low-Altitude UAV Patrol Networks for Sustainable Cities”
+# Supplementary Materials for “How Organization Strategies Shape the Resilience of Low-Altitude UAV Patrol Networks”
 
 This repository provides the supplementary materials for the numerical experiments reported in the manuscript. The materials are released to improve transparency and reproducibility, and to allow readers to inspect the parameter settings, solution logs, and numerical results used to evaluate the proposed two-stage resilient UAV patrol network planning framework.
 
